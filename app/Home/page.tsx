@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 
-const pages = () => {
+const Home = () => {
   return (
     <main className="min-h-screen bg-slate-900 text-slate-50 grid place-items-center p-8">
       <header className="w-full max-w-md bg-slate-800/70 backdrop-blur-md border border-white/10 rounded-2xl p-10 text-center shadow-2xl flex flex-col items-center gap-6">
@@ -20,4 +20,4 @@ const pages = () => {
   )
 }
 
-export default pages
+export default Home
